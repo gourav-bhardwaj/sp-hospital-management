@@ -1,0 +1,19 @@
+server:
+  port: 8099
+
+
+spring:
+  application:
+    name: sp-hospital-management
+#  devtools:
+#    restart:
+#      enabled: false
+
+spring-doc:
+  api-docs:
+    enabled: true
+    path: /api-docs
+  swagger-ui:
+    enabled: true
+    path: /swagger-ui.html
+
