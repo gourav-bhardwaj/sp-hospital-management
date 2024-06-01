@@ -20,7 +20,7 @@ public class PatientProcessController {
 
     @PostMapping("/discharge-process")
     public ResponseEntity<String> patientDischargeProcess(@RequestBody PatientInfoDto patientInfoDto) {
-        log.info("Invoked the patient process from controller endpoint!! ----");
+        log.info("Invoked the patient process from controller endpoint!!");
         dischargeService.process(patientInfoDto);
         return ResponseEntity.ok("Patient discharge process done successfully");
     }
